@@ -1,0 +1,19 @@
+body, html {
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+}
+
+div > div{
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+}
