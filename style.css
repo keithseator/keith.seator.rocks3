@@ -6,22 +6,37 @@ body{
     margin: 0;
 }
 
-div{
+.MainDiv{
     background-color: red;
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   */
-    align-items: center;
+
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    border: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 div > div{
     background-color: blue;
+    font-size: large;
     margin: 10px;
+    height: 90px;
+    
     padding: 10px;
-    height: 60px;
+    /* float: left; */
 }
 
-.HomeIcon{
-    background-image: url('/img/Home.jpg');
-    background-size: cover;
+#HomeButton{
+border-width: 5px;
+border-style: solid;
+}
+
+img{
+  float: right;
+  width: 100px;
+
+}
+.fdsa{
+float: left;
 }
