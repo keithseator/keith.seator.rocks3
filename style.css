@@ -7,10 +7,8 @@ body{
 }
 
 .MainDiv{
-    background-color: red;
+    background-color: #313C74;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   */
-
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     border: black;
     border-width: 3px;
@@ -18,25 +16,25 @@ body{
 }
 
 div > div{
-    background-color: blue;
-    font-size: large;
+    background-color: #182257;
+    font-size: xx-large;
+    color: white;
     margin: 10px;
-    height: 90px;
-    
+    /* height: 70px; */
     padding: 10px;
-    /* float: left; */
 }
 
 #HomeButton{
-border-width: 5px;
+border-width: 3px;
 border-style: solid;
+padding-top: 30px;
+padding-bottom: 30px;
+
 }
 
 img{
   float: right;
   width: 100px;
+  vertical-align: baseline;
 
-}
-.fdsa{
-float: left;
 }
